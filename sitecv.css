@@ -1,0 +1,526 @@
+body {
+max-width: 100vw;
+max-height: 620vh;
+background-image: url(boat.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+padding: 0 auto;
+margin: 0 auto;
+overflow-x: hidden;
+}
+
+
+.container {
+  max-width: 100vw;
+  max-height: 620vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  -webkit-display: flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-family: 'Walter Turncoat', cursive;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+/*accueil------------------ début*/
+
+#accueil{
+  width: 100vw;
+  height: 100vh;
+  -webkit-display: flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+#english {
+  webkit-align-self: flex-end;
+  align-self: flex-end;
+  margin-top: 2vh;
+  margin-right: 2vw;
+  font-size: 1.5vw;
+}
+
+#head {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+#nav {
+  -webkit-display: flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 15vh;
+}
+
+#nav ul {
+  width: 65vw;
+  -webkit-display: flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+
+}
+
+ #nav ul li {
+  list-style: none;
+  -webkit-display: flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.5vw;
+}
+
+ a:link,  a:visited {
+  color: #ffffff;
+  text-decoration: none;
+  outline: none;
+}
+
+  a:hover {
+  color: #ff7f00;
+  text-decoration: none;
+  outline: none;
+}
+
+#titres{
+  height: 65vh;
+  -webkit-display: flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-selt: center;
+  align-self: center;
+  -webkit-align-items: center;
+  align-items: center;
+  font-family: 'Rock Salt', cursive;
+}
+
+#titres h1 {
+  -webkit-display: flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  width: 50vw;
+  height: 50vh;
+}
+
+#titres img {
+  width: 70%;
+  height: 70%;
+}
+
+h2 {
+  font-size: 1.5vw;
+
+}
+
+h3 {
+  font-size: 1.5vw;
+}
+
+#scroll-down {
+  -webkit-align-self: center;
+  align-self: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 1vw;
+  height: 1vh;
+}
+
+#scroll-down img {
+  width: 50%;
+  height: 50%;
+}
+
+/*accueil--------------- fin*/
+
+
+/*présentation*/
+
+#pres {
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+#présentation {
+  width: 80vw;
+  height: 80vh;
+  -webkit-display: flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-self: center;
+  align-self: center;
+  font-size: 1.5vw;
+}
+
+
+#freetime{
+  -webkit-display: flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-self: center;
+  align-self: center;
+  -webkit-align-items: center;
+  align-items: center;
+  width: 40vw;
+}
+
+.slideshow {
+  -webkit-justify-content: center;
+   justify-content: center;
+   width: 25vw;
+   height: 25vh;
+   overflow: hidden;
+   border: 3px solid #F2F2F2;
+}
+
+.slideshow ul {
+   width: 600%;
+   padding:0;
+   margin:0;
+   list-style: none;
+}
+
+.slideshow li {
+   float: left;
+}
+
+#text {
+  -webkit-display: flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-self: center;
+  align-self: center;
+  width: 40vw;
+  color: #fff;
+}
+
+#scroll-down img{
+  height: 8vh;
+  width: 10vw;
+}
+
+/*présentation =======> fin*/
+
+
+/*expériences =======> début*/
+
+
+
+/*expériences*/
+#expériences {
+  width: 100vw;
+  height: 100vh;
+  -webkit-display: flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: space-around;
+  justify-content:space-around;
+  -webkit-align-items: center;
+  align-items: center;
+  font-size: 1.3vw;
+  background-color: #FAFAD2;
+}
+
+#expériences h3 {
+  color: #ff7f00;
+}
+
+#expe {
+  width: 85vw;
+  height: 90vh;
+  -webkit-display: flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: space-around;
+  justify-content:space-around;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+
+.mySlides{
+  width: 70vw;
+  height: 70vh;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-content: center;
+
+}
+
+#one{
+  background-image: url(sand.jpg);
+}
+
+#two{
+  background-image: url(palm.jpg);
+}
+
+#three{
+  background-image: url(bus.jpg);
+}
+
+
+button{
+ width: 3vw;
+ height: 5vh;
+
+}
+
+
+.arrow img{
+  width: 2em;
+}
+
+/*expériences =======> fin*/
+
+
+/*compétences ========> début*/
+
+#compétences {
+  width: 87vw;
+  height: 120vh;
+  margin: 0 auto;
+  -webkit-display: flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-align-content: center;
+  align-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+
+}
+
+#compétences h5 {
+  font-size: 1.5em;
+}
+
+
+#global {
+  width: 90vw;
+  height: 100vh;
+  margin: 0 auto;
+  -webkit-display: flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  vertical-align: middle;
+  -webkit-align-content: center;
+  align-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+#info {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  width: 45vw;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-left: 8%;
+  -webkit-align-items: center;
+  align-items: center;
+
+
+}
+
+
+.slide {
+
+   width: 18vw;
+   height: 23vh;
+   overflow: hidden;
+   border: .5em solid #F2F2F2;
+}
+
+.slide ul {
+
+   width: 600%;
+   height: 21vh;
+   padding:0;
+   margin:0;
+   list-style: none;
+}
+
+.slide li {
+   float: left;
+}
+
+#hors {
+  width: 45vw;
+  -webkit-display: flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-align-content: space-around;
+  align-content: space-around;
+}
+
+#autre {
+  -webkit-display: flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+
+}
+
+#autre li {
+  font-size: 1em;
+}
+
+#manage {
+  width: 40%;
+}
+
+#gestion {
+  width: 40%;
+}
+
+#relation {
+  width: 40%;
+}
+
+#project{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.on{
+  flex-direction: column;
+}
+
+#board{
+  width: 25vw;
+  height: 35vh;
+}
+
+#cmi{
+  width: 25vw;
+  height: 35vh;
+}
+
+#avr{
+  width: 25vw;
+  height: 35vh;
+}
+/*compétences ========> fin*/
+
+/*contacts ========> début*/
+#com {
+  -webkit-display: flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  height: 100vh;
+}
+
+#contacts {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  flex-wrap: wrap;
+  width: 70vw;
+  justify-content: center;
+}
+
+.yep {
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  font-size: 1.5vw;
+}
+
+#contacts img {
+  width: 25%;
+  height: 25%;
+}
+
+#mail a:link, #mail a:visited {
+ color: #ff7f00;
+ text-decoration: none;
+ outline: none;
+}
+
+#mail a:hover {
+ color: #fff;
+ text-decoration: none;
+ outline: none;
+}
+
+.shake {
+  width: 100px;
+  height: 100px;
+}
+
+footer {
+  width: 100vw;
+  -webkit-display:flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-content: center;
+  align-content: center;
+}
+
+#scroll-top{
+}
+/*contacts ========> fin*/
